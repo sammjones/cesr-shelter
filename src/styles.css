@@ -23,7 +23,7 @@
 
 .form-container {
     max-width: 800px;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .body-container {
