@@ -63,6 +63,12 @@
     
 }
 
+.body-container h3 {
+    font-family: 'Nunito Sans' sans-serif;
+    color: #434343;
+    font-weight: 300;
+}
+
 .nav-link {
     height: 48;
     width: 48;
