@@ -88,12 +88,11 @@
 
 .our-stores {
    
-        background: #f8f9fa;
-        justify-content: inline;
-        box-shadow: 0 2px 10px rgba(209, 209, 209, 1.0);
-        padding: 10px;
-        
-        border-radius: 1%;
+    background: #f8f9fa;
+    justify-content: inline;
+    box-shadow: 0 2px 10px rgba(209, 209, 209, 1.0);
+    padding: 10px;    
+    border-radius: 1%;
 }
 
 .clickable-img {
@@ -102,9 +101,10 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    background: var(--secondary-color);
     padding: 18px;
     box-shadow: var(--box-shadow);
+    background-color: #f8f9fa;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
     
 }
 
@@ -137,6 +137,10 @@
     background-color: var(--secondary-color);
 }
 
+.homehero-description {
+    background: var(--secondary-color);
+}
+
 p {
     background-color: var(--secondary-color-blue);
     padding: 20px;
@@ -146,7 +150,8 @@ p {
 }
 
 .home-body {
-    padding: 42px;
+    padding: 60px;
+    box-shadow: var(--box-shadow);
 }
 
 .home-body h2 {
