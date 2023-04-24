@@ -95,6 +95,12 @@
         border-radius: 1%;
 }
 
+.clickable-img {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .print-image-max {
    display: inline-block;
    background: var(--secondary-color);
@@ -131,7 +137,7 @@ p {
 
 
 body {
-background-color: #ebeef0;
+background-color: #f0f0f0;
 font-family: 'Nunito Sans' sans-serif;
 font-weight: 250;
 } 
