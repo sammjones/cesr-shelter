@@ -103,9 +103,8 @@
     text-align: center;
     padding: 18px;
     box-shadow: var(--box-shadow);
-    background-color: #f8f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    
+background-color: #f8f9fa;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
 }
 
 .print-image-max {
