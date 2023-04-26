@@ -101,14 +101,16 @@
     padding: 18px;
     box-shadow: var(--box-shadow);
     background-color: #f8f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
     display: flex;
     
     
 }
 
-.clickable-img img {
-    color: #547fb3;
+
+.footer-box {
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+        display: flex;
 }
 
 .footer-content li {
@@ -136,7 +138,7 @@
 .partner-description h1 {
     font-family: 'Nunito Sans' sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
     text-align: center;
     max-width: flex;
