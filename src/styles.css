@@ -87,8 +87,6 @@
 }
 
 .our-stores {
-   
-    background: #f8f9fa;
     justify-content: inline;
     box-shadow: 0 2px 10px rgba(209, 209, 209, 1.0);
     padding: 10px;    
@@ -103,8 +101,8 @@
     text-align: center;
     padding: 18px;
     box-shadow: var(--box-shadow);
-background-color: #f8f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+    background-color: #f8f9fa;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 
 .print-image-max {
@@ -134,6 +132,9 @@ background-color: #f8f9fa;
 
 .hero-image {
     background-color: var(--secondary-color);
+    display: inline-block;
+    margin-top: 25px;
+    border-radius: 0.7%;
 }
 
 .homehero-description {
@@ -150,7 +151,7 @@ p {
 
 .home-body {
     padding: 60px;
-    box-shadow: var(--box-shadow);
+    
 }
 
 .home-body h2 {
@@ -167,7 +168,8 @@ p {
 
 
 body {
-background-color: var(--primary-color);
+background-color: #f8f9fa;
+background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
 font-family: 'Nunito Sans' sans-serif;
 font-weight: 250;
 } 
