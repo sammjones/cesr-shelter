@@ -103,6 +103,11 @@
     box-shadow: var(--box-shadow);
     background-color: #f8f9fa;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    
+}
+
+.clickable-img img {
+    color: #547fb3;
 }
 
 .print-image-max {
@@ -173,3 +178,5 @@ background-image: url("https://www.transparenttextures.com/patterns/cream-dust.p
 font-family: 'Nunito Sans' sans-serif;
 font-weight: 250;
 } 
+
+
