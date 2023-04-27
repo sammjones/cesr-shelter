@@ -31,7 +31,7 @@
 }
 
 .body-container {
-    margin: 60px auto;
+    margin: 20px auto;
     max-width: 1200px;
     font-family: 'Nunito Sans' sans-serif;
     font-weight: lighter;
@@ -136,7 +136,8 @@
 .contact-description h3 {
     font-size: 24px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
+    
 }
 
 .contact-email {
