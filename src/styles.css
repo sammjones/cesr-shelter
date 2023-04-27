@@ -132,6 +132,19 @@
     font-weight: 300;
 }
 
+.contact-email {
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: var(--box-shadow);
+    max-width: 900px;
+    padding: 50px;
+}
+
+.contact-email p {
+    font-weight: 200;
+    font-size: 18px;
+}
+
 .clickable-img {
     font-family: 'Nunito Sans' sans-serif;
     font-size: 12px;
@@ -228,13 +241,7 @@
     background: var(--secondary-color);
 }
 
-p {
-    background-color: var(--secondary-color-blue);
-    padding: 20px;
-    border-radius: 4px;
-    justify-content: center;
 
-}
 
 .home-body {
     padding: 60px;
