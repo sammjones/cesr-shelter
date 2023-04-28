@@ -1,287 +1,255 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,300&display=swap");
 
 :root {
-    
-    --primary-color: #f0f0f0;
-    --secondary-color: #f8f9fa;
-    --secondary-color-blue: #e7eaf0;
-    --box-shadow: 0 1px 7px rgba(209, 209, 209, 1.0);
-    --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3)
+  --primary-color: #f0f0f0;
+  --secondary-color: #f8f9fa;
+  --secondary-color-blue: #e7eaf0;
+  --box-shadow: 0 1px 7px rgba(209, 209, 209, 1);
+  --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navigation-links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .navigation-links a {
-    margin: 20px;
-    border-radius: 4px;
-    padding: 20px 20px;
-    text-decoration: none;
-    text-transform: capitalize;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .form-container {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .body-container {
-    margin: 20px auto;
-    max-width: 1200px;
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: lighter;
-   
+  margin: 20px auto;
+  max-width: 1200px;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: lighter;
 }
 
-
 .body-container h2 {
-    font-weight: 200;
-    line-height: 36px;
-    color: #434343;
-    text-align: center;
-    padding: 50px;
+  font-weight: 200;
+  line-height: 36px;
+  color: #434343;
+  text-align: center;
+  padding: 50px;
 }
 
 .body-container h1 {
-    line-height: 50px;
-    size: 40px;
-    color: #434343;
-    text-align: center;
-    font-weight: 300;
-
+  line-height: 50px;
+  size: 40px;
+  color: #434343;
+  text-align: center;
+  font-weight: 300;
 }
 
 .body-container p {
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 300;
-    
-    
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 300;
 }
 
 .body-container h3 {
-    font-family: 'Nunito Sans' sans-serif;
-    color: #434343;
-    font-weight: 200;
-    font-size: 30px;
-
+  font-family: "Nunito Sans" sans-serif;
+  color: #434343;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .body-container li {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .body-container ul {
-    font-size: 20px;
-    font-weight: 300;
-    
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .nav-link {
-    height: 48;
-    width: 48;
+  height: 48;
+  width: 48;
 }
 
 .our-stores {
-    box-shadow: 0 2px 10px rgba(209, 209, 209, 1.0);
-    padding: 30px;    
-    border-radius: 1%;
-    max-width: 350px;
-       
+  box-shadow: 0 2px 10px rgba(209, 209, 209, 1);
+  padding: 30px;
+  border-radius: 1%;
+  max-width: 350px;
 }
 
 .our-stores ul {
-    list-style: none;
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 300;
-    padding-top: 5px;
-    
+  list-style: none;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
 }
 
 .our-stores li {
-    list-style: none;
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 200;
+  list-style: none;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 200;
 }
 
 .contact-body {
-    max-width: 1200px;
-    padding: 50px;
-    
+  max-width: 1200px;
+  padding: 50px;
 }
 
 .contact-info-hero {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-description {
-    max-width: 1200px;
-    box-shadow: var(--box-shadow);
-    padding: 30px;
+  max-width: 1200px;
+  box-shadow: var(--box-shadow);
+  padding: 30px;
 }
 
 .contact-description h1 {
-    font-size: 30px;
-    font-weight: 400;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .contact-description h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .contact-description h3 {
-    font-size: 24px;
-    text-align: center;
-    font-weight: 200;
-    
+  font-size: 24px;
+  text-align: center;
+  font-weight: 200;
 }
 
 .contact-email {
-    justify-content: center;
-    margin: 0 auto;
-    box-shadow: var(--box-shadow);
-    max-width: 900px;
-    padding: 50px;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+  max-width: 900px;
+  padding: 50px;
 }
 
 .contact-email p {
-    font-weight: 200;
-    font-size: 18px;
-    text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
 }
 
 .contact-email h3 {
-    font-size: 22px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-weight: 300;
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .clickable-img {
-    font-family: 'Nunito Sans' sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 18px;
-    box-shadow: var(--box-shadow);
-    background-color: #f8f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-    display: flex;
-    
-    
+  font-family: "Nunito Sans" sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 18px;
+  box-shadow: var(--box-shadow);
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  display: flex;
 }
 
-
 .footer-box {
-    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-        display: flex;
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  display: flex;
 }
 
 .footer-content li {
-    font-family: 'Nunito Sans' sans-serif;
+  font-family: "Nunito Sans" sans-serif;
   list-style-type: none;
   font-weight: 300;
   font-size: 12px;
   text-align: center;
   line-height: 15px;
-  
 }
 
 .footer-content ul {
-    padding: 10px;
-    
+  padding: 10px;
 }
 
 .footer-content {
-    display: inline-flexbox;
-    
-
+  display: inline-flexbox;
 }
 
-
 .partner-description h1 {
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 300;
-    font-size: 22px;
-    font-style: italic;
-    text-align: center;
-    max-width: flex;
-    padding: 50px;
-    display: flex;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  max-width: flex;
+  padding: 50px;
+  display: flex;
 }
 
 .partner-logo-box {
-    text-align: center;
-    margin-bottom: 50px;
-
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .print-image-max {
-   display: inline-block;
-   background: var(--secondary-color-blue);
-   justify-content: inline;
-   box-shadow: 0 2px 10px rgba( 209, 209, 209, 1.0);
-   padding: 10px;
-   height: 418px;
-   border-radius: 1%;
-
+  display: inline-block;
+  background: var(--secondary-color-blue);
+  justify-content: inline;
+  box-shadow: 0 2px 10px rgba(209, 209, 209, 1);
+  padding: 10px;
+  height: 418px;
+  border-radius: 1%;
 }
 
-
-
 .project-links {
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
-    text-decoration: none;
-    font-weight: 250;
-    box-shadow: var(--box-shadow);
-    color: white;
-    background-color: #547fb3;
-    
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 250;
+  box-shadow: var(--box-shadow);
+  color: white;
+  background-color: #547fb3;
 }
 
 .hero-image {
-    background-color: var(--secondary-color);
-    display: inline-block;
-    margin-top: 25px;
-    border-radius: 0.7%;
+  background-color: var(--secondary-color);
+  display: inline-block;
+  margin-top: 25px;
+  border-radius: 0.7%;
 }
 
 .homehero-description {
-    background: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
-
-
 .home-body {
-    padding: 60px;
-    
+  padding: 60px;
 }
 
 .home-body h2 {
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 300;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 300;
 }
 
 .home-body h3 {
-    font-family: 'Nunito Sans' sans-serif;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 24px;
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-
 body {
-background-color: #f8f9fa;
-background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
-font-family: 'Nunito Sans' sans-serif;
-font-weight: 250;
-} 
-
-
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 250;
+}
