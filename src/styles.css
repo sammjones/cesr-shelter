@@ -183,6 +183,28 @@
   display: inline-flexbox;
 }
 
+.print-services-hero {
+  max-width: 1000px;
+}
+
+.print-services {
+  max-width: 1000px;
+}
+
+.print-services-description {
+  max-width: 800px;
+}
+
+.print-services-process {
+  max-width: 800px;
+}
+
+.print-services-hero h2 {
+  font-size: 24px;
+}
+
+
+
 .partner-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 300;
