@@ -186,8 +186,7 @@
 .print-services-hero {
   max-width: 1000px;
   box-shadow: var(--box-shadow);
-  background-color: #fcfeff;
-    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); 
+   
   }
 
 .print-services-hero h2 {
@@ -197,7 +196,7 @@
 }
 
 .print-services {
-  box-shadow: var(--box-shadow);
+  
   max-width: 1200px;
   padding: 30px;
 }
@@ -210,7 +209,8 @@
 }
 
 .image-display-background {
-  background: #547fb3;
+  background-color: #f0f5fa;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
   max-width: 100%;
 }
 
@@ -252,34 +252,43 @@
 
 .print-services-description {
   max-width: 600px;
+  padding: 25px;
+  margin: 50px auto;
   
 }
 
 .print-services-description p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
+  
 }
 
 .print-services-description li {
-  font-weight: 200;
+  font-weight: 300;
     font-size: 16px;
 }
 
 .print-services-process {
   max-width: 600px;
+  padding: 25px;
+  margin: 50px auto;
 }
 
 .print-services-process p {
   font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 .print-services-process li {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 16px;
 }
 
 
-
+.print-services-upload {
+  
+  padding: 50px;
+  display: flex;
+}
 
 
 .partner-description h1 {
