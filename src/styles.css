@@ -185,23 +185,100 @@
 
 .print-services-hero {
   max-width: 1000px;
+  box-shadow: var(--box-shadow);
+  background-color: #fcfeff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); 
+  }
+
+.print-services-hero h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 .print-services {
+  box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  padding: 30px;
+}
+
+.print-services p {
+  display: block;
+  margin: 70px auto;
+  padding: 20px;
+
+}
+
+.image-display-background {
+  background: #547fb3;
+  max-width: 100%;
+}
+
+
+
+.print-services h4 {
+  font-size: 22px;
+  font-weight: 300;
+  
+}
+
+.print-services h5 {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.print-services li {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.print-services-large {
   max-width: 1000px;
+  padding: 30px;
+}
+
+.oversized-prints {
+  max-width: 1000px;
+  padding: 30px;
+}
+
+.high-volume {
+  max-width: 1000px;
+  padding: 30px;
+  
 }
 
 .print-services-description {
-  max-width: 800px;
+  max-width: 600px;
+  
+}
+
+.print-services-description p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.print-services-description li {
+  font-weight: 200;
+    font-size: 16px;
 }
 
 .print-services-process {
-  max-width: 800px;
+  max-width: 600px;
 }
 
-.print-services-hero h2 {
-  font-size: 24px;
+.print-services-process p {
+  font-weight: 300;
+    font-size: 16px;
 }
+.print-services-process li {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+
 
 
 
