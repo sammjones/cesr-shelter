@@ -148,17 +148,55 @@
   font-weight: 300;
 }
 
+.clickable-img container {
+  justify-content: center;
+}
+
 .clickable-img {
+  display: flex;
+  justify-content: center;
   font-family: "Nunito Sans" sans-serif;
-  font-size: 14px;
+  max-width: 1200px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  padding: 18px;
+  color: #434343;
   box-shadow: var(--box-shadow);
   background-color: #f8f9fa;
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-  display: flex;
+  margin: 0px auto;
+  
+  
+ 
+}
+
+.click-img {
+  margin: 0 auto;
+  line-height: 50px;
+  justify-content: center;
+}
+
+.click-img-file {
+  margin: 25px auto;
+  
+}
+
+.click-img-service {
+margin: 25px auto;
+}
+
+.click-img-supplies {
+margin: 25px auto;
+}
+
+.click-img-meter {
+margin: 25px auto;
+}
+
+.click-img-icon {
+  max-width: 100%;
+  padding: 20px
 }
 
 .footer-box {
