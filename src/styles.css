@@ -203,6 +203,7 @@ margin: 0 auto;
 .footer-box {
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
   display: flex;
+  padding-top: 40px;
 }
 
 .footer-content li {
