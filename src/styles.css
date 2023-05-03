@@ -419,6 +419,10 @@ max-width: 800px;
   text-align: center;
 }
 
+.supplies-sales-info li {
+  list-style-type: none;
+}
+
 .carousel-slide {
   max-width: 600px;
   display: block;
