@@ -15,6 +15,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
 </head>
@@ -37,7 +43,7 @@
                     </li>
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="sales.html">Equipment & Supplies</a>
+                        <a class="nav-link active" aria-current="page" href="sales.html">Equipment & Supplies</a>
                     </li>
 
                     <li class="nav-item">
@@ -50,7 +56,7 @@
                         <a class="nav-link" href="meters.html">Meter Reading</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contactMe.html">Contact</a>
+                        <a class="nav-link" href="contactMe.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,32 +64,158 @@
     </nav>
 
     <div class="body-container">
-        <div class="sales-description">
+
+<div>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Users/samanthajones/Desktop/cesr-shelter/images/blueprintcollab.jpg" class="d-block w-100"
+                    alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="/Users/samanthajones/Desktop/cesr-shelter/images/blueprintdraw.jpg" class="d-block w-100" alt="#">
+            </div>
+            <div class="carousel-item">
+                <img src="/Users/samanthajones/Desktop/cesr-shelter/images/colorblueprint.jpg" class="d-block w-100"
+                    alt="#">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<br/>
+
+        <div class="container sales-description">
             <h1>
             CES&R offers state-of-the-art printing equipment for sale or lease from leading manufacturers such as Canon, KIP and
             Kyocera Copystar. We also carry all the supplies you need for your large-format printers and plotters.
             </h1>
-    <p>
-        <a href="contactMe.html">Contact us</a>
-        today to see how we can benefit your business now and in the future</p>
+    
 </div>
 
-<div class="container partner-logo-box">
+
+
+<p>
+    <a href="contactMe.html">Contact us</a>
+    today to see how we can benefit your business now and in the future
+</p>
+<hr>
+<h2>Equipment</h2>
+
+<div class="container equipment-sales-hero">
     <div class="row">
         <div class="col">
-            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/canon2.png" alt="Canon U.S.A" />
+            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/canonlogo.png" />
+            <br/>
+            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/canon.jpeg" />
+            <ul>
+                <li>imagePROGRAF TX-4100 MFP Z36</li>
+                <li>imagePROGRAF TX-4100 MFP Z36</li>
+                <li>imagePROGRAF TX-4100 MFP Z36</li>
+            </ul>
         </div>
         <div class="col">
-            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/kiplogo.png" alt="KIP" />
+            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/kiplogo.png" />
+            <br/>
+            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/kip660.jpeg" />
+            <ul>
+                <li>Kip 600 series</li>
+                <li>Kip 600 series</li>
+                <li>Kip 600 series</li>
+            </ul>
         </div>
         <div class="col">
-            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/kyocera-copy-transformed.png"
-                alt="Kyocera Copystar" />
+            <img src="/Users/samanthajones/Desktop/cesr-shelter/images/kyocera-copy-transformed.png" />
+            <br/>
+          <img src="/Users/samanthajones/Desktop/cesr-shelter/images/KIP770.jpeg" />
+        <ul>
+            <li>Kyocera w/ Copystar Technology</li>
+            <li>Kyocera w/ Copystar Technology</li>
+            <li>Kyocera w/ Copystar Technology</li>
+        </ul>
         </div>
     </div>
 </div>
 
-</div>
+<hr>
+
+<div class="container">
+
+    <h2>Supplies</h2>
     
+
+</div>
+
+
+
+
+
+</div>
+
+
+<hr>
+<footer class="footer-box">
+    <div class="container footer-content">
+        <div class="row row-cols-3 justify-content-center">
+
+            <div>
+                <a href="./contactMe.html">
+                    <img class="d-flex justify-content-center mt-4"
+                        src="/Users/samanthajones/Desktop/cesr-shelter/images/logo.footer.png" />
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Salt Lake City Office
+                    </li>
+                    <li>
+                        2949 S. Main Street
+                    </li>
+                    <li>
+                        Salt Lake City, UT 84115
+                    </li>
+                    <li>
+                        801.487.8715
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Las Vegas Office
+                    </li>
+                    <li>
+                        3139 W. Post Road
+                    </li>
+                    <li>
+                        Las Vegas, NV 89118
+                    </li>
+                    <li>
+                        702.360.2466
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
