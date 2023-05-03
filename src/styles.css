@@ -328,6 +328,9 @@ margin: 25px auto;
   display: flex;
 }
 
+.print-service-ribbon {
+  max-width: 800px;
+}
 
 .partner-description h1 {
   font-family: "Nunito Sans" sans-serif;
