@@ -157,7 +157,7 @@
   display: flex;
   justify-content: center;
   font-family: "Nunito Sans" sans-serif;
-  max-width: 1200px;
+  max-width: 1000px;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -166,7 +166,7 @@
   box-shadow: var(--box-shadow);
   background-color: #f8f9fa;
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
-  margin: 0px auto;
+  margin: 0 auto;
   
   
  
@@ -179,20 +179,20 @@
 }
 
 .click-img-file {
-  margin: 25px auto;
+  margin: 0 auto;
   
 }
 
 .click-img-service {
-margin: 25px auto;
+margin: 0 auto;
 }
 
 .click-img-supplies {
-margin: 25px auto;
+margin: 0 auto;
 }
 
 .click-img-meter {
-margin: 25px auto;
+margin: 0 auto;
 }
 
 .click-img-icon {
@@ -377,8 +377,8 @@ margin: 25px auto;
   border-radius: 0.7%;
 }
 
-.homehero-description {
-  background: var(--secondary-color);
+.homehero-description p {
+  max-width: 600px;
 }
 
 .home-body {
