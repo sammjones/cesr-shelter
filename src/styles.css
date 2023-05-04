@@ -445,3 +445,21 @@ max-width: 800px;
   display: block;
   margin: 0 auto;
 }
+
+.meter-instructions {
+  max-width: 800px;
+  text-align: center;
+}
+
+.meter-instructions h1 {
+ font-size: 30px;
+}
+
+.meter-instructions h3 {
+  font-size: 22px;
+}
+
+.meter-instructions h4, p {
+  font-size: 22px;
+  font-weight: 200;
+}
