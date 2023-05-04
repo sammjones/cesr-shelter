@@ -9,19 +9,6 @@
   --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 20px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 
 .form-container {
   max-width: 800px;
@@ -77,6 +64,42 @@
   height: 48;
   width: 48;
 }
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.leap-file-hero {
+  font-size: 22px;
+  text-decoration: none;
+
+}
+
+.leap-file-upload a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.leap-file-upload {
+  max-width: 400px;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  border-radius: 6px;
+  padding: 6px 24px;
+  box-shadow: var(--button-shadow);
+  text-shadow: 0px 1px 0px #528ecc;
+}
+
 
 .our-stores {
   box-shadow: 0 2px 10px rgba(209, 209, 209, 1);
