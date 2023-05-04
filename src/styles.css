@@ -200,6 +200,22 @@ margin: 0 auto;
   padding: 20px
 }
 
+.faq-description {
+  max-width: 800px;
+}
+
+.faq-description h3 {
+font-weight: 300;
+}
+
+.faq-description h4 {
+font-size: 18px;
+}
+
+.faq-description p {
+font-size: 16px;
+}
+
 .footer-box {
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
   display: flex;
