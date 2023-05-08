@@ -536,3 +536,25 @@ font-weight: 250;
   text-align: left;
   padding-left: 300px;
 }
+
+.meter-read-hero {
+  max-width: 1000px;
+  padding: 50px;
+  box-shadow: var(--box-shadow);
+}
+
+.meter-read-hero h2 {
+font-weight: 300;
+font-size: 30px;
+}
+
+.meter-read-hero p {
+font-size: 24px;
+line-height: 32px;
+font-weight: 200;
+}
+
+.meter-partner-hero {
+  max-width: 1000px;
+  padding: 50px;
+}
