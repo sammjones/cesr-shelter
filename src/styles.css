@@ -115,6 +115,8 @@ body {
   padding: 30px;
   border-radius: 1%;
   max-width: 350px;
+  background-color: #f5f9fa;
+    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
 }
 
 .our-stores ul {
@@ -143,6 +145,8 @@ body {
   max-width: 1200px;
   box-shadow: var(--box-shadow);
   padding: 30px;
+  background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
 }
 
 .contact-description h1 {
@@ -166,6 +170,8 @@ body {
   box-shadow: var(--box-shadow);
   max-width: 900px;
   padding: 50px;
+  background-color: #f0f1f5;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
 }
 
 .contact-email p {
