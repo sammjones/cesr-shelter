@@ -9,10 +9,16 @@
   --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
 .form-container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+body {
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 250;
 }
 
 .body-container {
@@ -28,7 +34,7 @@
   line-height: 36px;
   color: #434343;
   text-align: center;
-  padding: 50px;
+  
 }
 
 .body-container h1 {
@@ -82,7 +88,6 @@
 .leap-file-hero {
   font-size: 22px;
   text-decoration: none;
-
 }
 
 .leap-file-upload a {
@@ -99,7 +104,6 @@
   box-shadow: var(--button-shadow);
   text-shadow: 0px 1px 0px #528ecc;
 }
-
 
 .our-stores {
   box-shadow: 0 2px 10px rgba(209, 209, 209, 1);
@@ -191,8 +195,6 @@
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
   margin: 0 auto;
   padding-bottom: 20px;
-  
- 
 }
 
 .click-img {
@@ -203,24 +205,23 @@
 
 .click-img-file {
   margin: 0 auto;
-  
 }
 
 .click-img-service {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .click-img-supplies {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .click-img-meter {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .click-img-icon {
   max-width: 100%;
-  padding: 20px
+  padding: 20px;
 }
 
 .faq-description {
@@ -228,15 +229,15 @@ margin: 0 auto;
 }
 
 .faq-description h3 {
-font-weight: 300;
+  font-weight: 300;
 }
 
 .faq-description h4 {
-font-size: 18px;
+  font-size: 18px;
 }
 
 .faq-description p {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .footer-box {
@@ -265,8 +266,9 @@ font-size: 16px;
 .print-services-hero {
   max-width: 1000px;
   box-shadow: var(--box-shadow);
-   
-  }
+  background-color: #f2f6fa;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+}
 
 .print-services-hero h2 {
   font-size: 20px;
@@ -275,7 +277,6 @@ font-size: 16px;
 }
 
 .print-services {
-  
   max-width: 1200px;
   padding: 30px;
 }
@@ -284,21 +285,27 @@ font-size: 16px;
   display: block;
   margin: 70px auto;
   padding: 20px;
-
 }
 
 .image-display-background {
-  background-color: #f0f5fa;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  background-color: #f2f6fa;
+    background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
   max-width: 100%;
 }
 
+.description-display-background {
+  background-color: #f8f9fa;
+    background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+    margin: 0 auto;
+}
 
+.description-display-background h4 {
+  margin-top: 40px;
+}
 
 .print-services h4 {
   font-size: 22px;
   font-weight: 300;
-  
 }
 
 .print-services h5 {
@@ -326,45 +333,44 @@ font-size: 16px;
 .high-volume {
   max-width: 1000px;
   padding: 30px;
-  
 }
 
 .print-services-description {
   max-width: 600px;
   padding: 25px;
   margin: 50px auto;
-  
+background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
 }
 
 .print-services-description p {
   font-weight: 300;
   font-size: 18px;
-  
 }
 
 .print-services-description li {
   font-weight: 300;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .print-services-process {
   max-width: 600px;
   padding: 25px;
   margin: 50px auto;
+  background-color: #f2f6fa;
+    background-image: url("https://www.transparenttextures.com/patterns/dust.png");
 }
 
 .print-services-process p {
   font-weight: 300;
-    font-size: 18px;
+  font-size: 18px;
 }
 .print-services-process li {
   font-weight: 300;
   font-size: 16px;
 }
 
-
 .print-services-upload {
-  
   padding: 50px;
   display: flex;
 }
@@ -437,22 +443,15 @@ font-size: 16px;
   line-height: 24px;
 }
 
-body {
-  background-color: #f8f9fa;
-  background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
-  font-family: "Nunito Sans" sans-serif;
-  font-weight: 250;
-}
+
 .sales-description {
-max-width: 800px;
+  max-width: 800px;
 }
 
 .sales-description h1 {
   text-align: center;
   font-size: 18px;
   line-height: 20px;
-  
-  
 }
 
 .sales-description p {
@@ -475,14 +474,45 @@ max-width: 800px;
 }
 
 .meter-instructions h1 {
- font-size: 30px;
+  font-size: 30px;
 }
 
 .meter-instructions h3 {
   font-size: 22px;
 }
 
-.meter-instructions h4, p {
+.meter-instructions h4,
+p {
   font-size: 22px;
   font-weight: 200;
+}
+
+.services-hero {
+padding: 30px;
+}
+
+.services-hero h2 {
+line-height: 30px;
+font-weight: 300;
+}
+
+.services-hero h1 {
+font-size: 20px;
+line-height: 24px;
+font-weight: 250;
+}
+
+.services-image {
+  margin: 50px auto;
+}
+
+
+.services-description {
+  max-width: 1000px;
+}
+
+.services-offered li {
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 300px;
 }
