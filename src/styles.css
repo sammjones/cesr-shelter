@@ -19,6 +19,7 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
   font-family: "Nunito Sans" sans-serif;
   font-weight: 250;
+  
 }
 
 .body-container {
@@ -64,6 +65,10 @@ body {
 .body-container ul {
   font-size: 20px;
   font-weight: 300;
+}
+
+.button-container {
+  padding: 50px;
 }
 
 .nav-link {
@@ -265,9 +270,10 @@ body {
 
 .print-services-hero {
   max-width: 1000px;
+  padding: 20px;
   box-shadow: var(--box-shadow);
   background-color: #f2f6fa;
-    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
 }
 
 .print-services-hero h2 {
@@ -335,12 +341,17 @@ body {
   padding: 30px;
 }
 
+.high-volume li {
+  text-align: left;
+}
+
 .print-services-description {
   max-width: 600px;
   padding: 25px;
   margin: 50px auto;
 background-color: #f8f9fa;
   background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
+  
 }
 
 .print-services-description p {
@@ -351,6 +362,7 @@ background-color: #f8f9fa;
 .print-services-description li {
   font-weight: 300;
   font-size: 16px;
+  text-align: left;
 }
 
 .print-services-process {
@@ -368,6 +380,7 @@ background-color: #f8f9fa;
 .print-services-process li {
   font-weight: 300;
   font-size: 16px;
+  text-align: left;
 }
 
 .print-services-upload {
