@@ -6,7 +6,8 @@
   --secondary-color: #f8f9fa;
   --secondary-color-blue: #e7eaf0;
   --box-shadow: 0 1px 7px rgba(209, 209, 209, 1);
-  --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --button-shadow: 0px 0px 0px 2px #9fb4f2;
+  
 }
 
 .form-container {
@@ -103,11 +104,12 @@ body {
 
 .leap-file-upload {
   max-width: 400px;
-  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
   border-radius: 6px;
   padding: 6px 24px;
   box-shadow: var(--button-shadow);
-  text-shadow: 0px 1px 0px #528ecc;
+  text-shadow: 0px 1px 0px #283966;
 }
 
 .our-stores {
@@ -275,22 +277,23 @@ body {
 }
 
 .print-services-hero {
-  max-width: 1000px;
-  padding: 20px;
-  box-shadow: var(--box-shadow);
-  background-color: #f2f6fa;
-  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+  max-width: 1200px;
+  padding: 50px;
+  
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
 }
 
-.print-services-hero h2 {
+.print-services-hero h1 {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .print-services {
   max-width: 1200px;
-  padding: 30px;
+  
 }
 
 .print-services p {
@@ -300,15 +303,16 @@ body {
 }
 
 .image-display-background {
-  background-color: #f2f6fa;
-    background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
+  
   max-width: 100%;
+  border-radius: 20px;
 }
 
 .description-display-background {
-  background-color: #f8f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
-    margin: 0 auto;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
 .description-display-background h4 {
@@ -334,17 +338,17 @@ body {
 
 .print-services-large {
   max-width: 1000px;
-  padding: 30px;
+  
 }
 
 .oversized-prints {
   max-width: 1000px;
-  padding: 30px;
+  
 }
 
 .high-volume {
   max-width: 1000px;
-  padding: 30px;
+  
 }
 
 .high-volume li {
@@ -355,8 +359,7 @@ body {
   max-width: 600px;
   padding: 25px;
   margin: 50px auto;
-background-color: #f8f9fa;
-  background-image: url("https://www.transparenttextures.com/patterns/diagonal-waves.png");
+
   
 }
 
@@ -375,8 +378,7 @@ background-color: #f8f9fa;
   max-width: 600px;
   padding: 25px;
   margin: 50px auto;
-  background-color: #f2f6fa;
-    background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+  
 }
 
 .print-services-process p {
