@@ -293,7 +293,7 @@ body {
 
 .print-services {
   max-width: 1200px;
-  
+  padding-bottom: 75px;
 }
 
 .print-services p {
@@ -357,36 +357,36 @@ body {
 
 .print-services-description {
   max-width: 600px;
-  padding: 25px;
+  padding: 10px;
   margin: 50px auto;
 
   
 }
 
 .print-services-description p {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 18px;
 }
 
 .print-services-description li {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 16px;
   text-align: left;
 }
 
 .print-services-process {
   max-width: 600px;
-  padding: 25px;
+  padding: 10px;
   margin: 50px auto;
   
 }
 
 .print-services-process p {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 18px;
 }
 .print-services-process li {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 16px;
   text-align: left;
 }
