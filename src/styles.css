@@ -416,6 +416,12 @@ body {
   margin-bottom: 50px;
 }
 
+.small-partner-logo {
+  max-width: 600px;
+  padding: 25px;
+  
+}
+
 .print-image-max {
   display: inline-block;
   background: var(--secondary-color-blue);
@@ -515,13 +521,21 @@ padding: 30px;
 
 .services-hero h2 {
 line-height: 30px;
-font-weight: 300;
+font-weight: 200;
 }
 
 .services-hero h1 {
 font-size: 20px;
-line-height: 24px;
-font-weight: 250;
+line-height: 28px;
+font-weight: 200;
+
+}
+
+.services-hero-description {
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .services-image {
@@ -531,12 +545,37 @@ font-weight: 250;
 
 .services-description {
   max-width: 1000px;
+  font-weight: 200;
+  padding: 25px;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.services-offered p {
+font-weight: 200;
+font-size: 20px;
 }
 
 .services-offered li {
   list-style-position: inside;
   text-align: left;
   padding-left: 300px;
+  font-weight: 200;
+  color: #5679A8;
+  
+}
+
+.services-offered li span {
+  color:#434343;
+  font-size: 20px;
+}
+
+.service-machines p {
+  font-weight: 200;
+  padding-top: 30px;
+  font-size: 18px;
 }
 
 .meter-read-hero {
