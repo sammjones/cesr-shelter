@@ -10,6 +10,10 @@
   
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .form-container {
   max-width: 800px;
   margin: 0 auto;
@@ -203,7 +207,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #434343;
-  box-shadow: var(--box-shadow);
+  
   background-color: #f8f9fa;
   background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
   margin: 0 auto;
@@ -254,7 +258,7 @@ body {
 }
 
 .footer-box {
-  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+ 
   display: flex;
   padding-top: 40px;
 }
@@ -263,17 +267,26 @@ body {
   font-family: "Nunito Sans" sans-serif;
   list-style-type: none;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   line-height: 15px;
 }
 
 .footer-content ul {
   padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .footer-content {
   display: inline-flexbox;
+}
+
+.footer-links li {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .print-services-hero {
@@ -400,20 +413,28 @@ body {
   max-width: 800px;
 }
 
+.partner-description {
+  max-width: 1000px;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
 .partner-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
   text-align: center;
   max-width: flex;
-  padding: 50px;
+  padding: 25px;
   display: flex;
 }
 
 .partner-logo-box {
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .small-partner-logo {
@@ -451,26 +472,35 @@ body {
   border-radius: 0.7%;
 }
 
-.homehero-description p {
-  max-width: 600px;
-}
+
 
 .home-body {
-  padding: 60px;
+  padding: 50px;
 }
 
-.home-body h2 {
-  font-family: "Nunito Sans" sans-serif;
-  font-weight: 300;
-}
-
-.home-body h3 {
+.home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 200;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 35px;
 }
 
+.home-hero-description p {
+  font-family: "Nunito Sans" sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.home-body-hero {
+  margin-bottom: 30px;
+}
+
+.homepage-description {
+  max-width: 800px;
+  text-align: center;
+  padding: 50px;
+  font-weight: 250;
+}
 
 .sales-description {
   max-width: 800px;
