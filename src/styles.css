@@ -496,24 +496,7 @@ body {
   margin: 0 auto;
 }
 
-.meter-instructions {
-  max-width: 800px;
-  text-align: center;
-}
 
-.meter-instructions h1 {
-  font-size: 30px;
-}
-
-.meter-instructions h3 {
-  font-size: 22px;
-}
-
-.meter-instructions h4,
-p {
-  font-size: 22px;
-  font-weight: 200;
-}
 
 .services-hero {
 padding: 30px;
@@ -580,22 +563,53 @@ font-size: 20px;
 
 .meter-read-hero {
   max-width: 1000px;
-  padding: 50px;
-  box-shadow: var(--box-shadow);
+  padding: 20px;
+  
 }
 
 .meter-read-hero h2 {
-font-weight: 300;
-font-size: 30px;
+font-weight: 200;
+font-size: 28px;
 }
 
-.meter-read-hero p {
-font-size: 24px;
+.meter-read-hero ul {
+font-size: 22px;
 line-height: 32px;
 font-weight: 200;
 }
 
+.meter-read-hero li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
 .meter-partner-hero {
-  max-width: 1000px;
-  padding: 50px;
+  max-width: 800px;
+  padding: 20px;
+  font-weight: 200;
+}
+
+.meter-partner-hero p {
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.meter-read-description {
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  padding: 15px 5px;
+  border-radius: 20px;
+  
+}
+
+.meter-partner-hero img {
+  padding: 10px;
+  margin-top: 5px auto;
+}
+
+.meter-read-image {
+ margin-top: 20px;
 }
