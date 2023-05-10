@@ -590,6 +590,9 @@ font-weight: 200;
   max-width: 800px;
   padding: 20px;
   font-weight: 200;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
 }
 
 .meter-partner-hero p {
