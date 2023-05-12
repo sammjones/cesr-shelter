@@ -117,12 +117,13 @@ body {
 }
 
 .our-stores {
-  box-shadow: 0 2px 10px rgba(209, 209, 209, 1);
-  padding: 30px;
+  
+  padding: 20px;
   border-radius: 1%;
   max-width: 350px;
-  background-color: #f5f9fa;
-    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
 }
 
 .our-stores ul {
@@ -130,12 +131,14 @@ body {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 300;
   padding-top: 5px;
+  padding-right: 10px;
 }
 
 .our-stores li {
   list-style: none;
   font-family: "Nunito Sans" sans-serif;
   font-weight: 200;
+  font-size: 18px;
 }
 
 .contact-body {
@@ -149,10 +152,10 @@ body {
 
 .contact-description {
   max-width: 1200px;
-  box-shadow: var(--box-shadow);
   padding: 30px;
   background-color: #fafafa;
-    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
 }
 
 .contact-description h1 {
@@ -161,7 +164,7 @@ body {
 }
 
 .contact-description h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .contact-description h3 {
@@ -172,12 +175,13 @@ body {
 
 .contact-email {
   justify-content: center;
-  margin: 0 auto;
-  box-shadow: var(--box-shadow);
+  margin: 5px auto;
   max-width: 900px;
-  padding: 50px;
-  background-color: #f0f1f5;
-    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  padding: 30px;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  
 }
 
 .contact-email p {
@@ -241,20 +245,37 @@ body {
   padding: 20px;
 }
 
+.contact-help {
+  
+  padding: 20px;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.contact-help h4 {
+  font-size: 24px;
+  font-weight: 250;
+}
+
 .faq-description {
   max-width: 800px;
+  margin-top: 50px;
 }
 
 .faq-description h3 {
   font-weight: 300;
+  margin-bottom: 25px;
 }
 
 .faq-description h4 {
   font-size: 18px;
+  font-weight: 250;
+  line-height: 24px;
 }
 
 .faq-description p {
   font-size: 16px;
+  font-weight: 200;
 }
 
 .footer-box {
