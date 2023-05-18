@@ -525,7 +525,7 @@ body {
 }
 
 .sales-description {
-  max-width: 1000px;
+  max-width: 1200px;
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
   border-radius: 20px;
@@ -553,6 +553,19 @@ body {
   font-size: 20px;
 }
 
+.product-help p {
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.equipment-sales-hero {
+  margin-top: 55px;
+  background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+    border-radius: 20px;
+    padding: 30px;
+}
+
 .canon-equipment {
   padding: 10px;
   display: inline-block;
@@ -577,6 +590,14 @@ body {
 .kip-logo {
   margin-top: 100px;
   margin-right: 50px;
+}
+
+.supplies-hero {
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  padding: 30px;
+  margin: 25px auto;
 }
 
 .contact-us-link p {
