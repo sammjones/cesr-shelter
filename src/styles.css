@@ -525,13 +525,18 @@ body {
 }
 
 .sales-description {
-  max-width: 800px;
+  max-width: 1000px;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  padding: 40px;
 }
 
 .sales-description h1 {
   text-align: center;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 200;
 }
 
 .sales-description p {
@@ -540,7 +545,45 @@ body {
 
 .supplies-sales-info li {
   list-style-type: none;
+  font-weight: 200;
 }
+
+.supplies-sales-info ul {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.canon-equipment {
+  padding: 10px;
+  display: inline-block;
+}
+
+.kyocera-machines {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.kip-equipment {
+  padding: 10px;
+  display: inline-block;
+}
+
+.kip-color-machine {
+  margin-top: 95px;
+}
+
+.kip-logo {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.contact-us-link p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
 
 .carousel-slide {
   max-width: 600px;
