@@ -544,11 +544,18 @@ body {
 }
 
 .supplies-sales-info li {
-  list-style-type: none;
+  list-style-position: inside;
   font-weight: 200;
+  text-align: left;
+  
 }
 
 .supplies-sales-info ul {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.supplies-sales-info p {
   font-weight: 200;
   font-size: 20px;
 }
