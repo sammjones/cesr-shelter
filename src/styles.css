@@ -118,7 +118,7 @@ body {
 
 .our-stores {
   
-  padding: 20px;
+  padding: 5px;
   border-radius: 1%;
   max-width: 350px;
   background-color: #fafafa;
@@ -130,8 +130,8 @@ body {
   list-style: none;
   font-family: "Nunito Sans" sans-serif;
   font-weight: 300;
-  padding-top: 5px;
-  padding-right: 10px;
+  padding-top: 15px;
+  padding-right: 20px;
 }
 
 .our-stores li {
@@ -148,7 +148,7 @@ body {
 
 .contact-info-hero {
   padding-bottom: 30px;
-   
+  padding-left: 250px;
 }
 
 .contact-description {
@@ -177,8 +177,8 @@ body {
 .contact-email {
   justify-content: center;
   margin: 5px auto;
-  max-width: 900px;
-  padding: 30px;
+  max-width: 1000px;
+  padding: 25px;
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
   border-radius: 20px;
