@@ -254,7 +254,7 @@ body {
 }
 
 .contact-help h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 250;
 }
 
@@ -686,7 +686,7 @@ font-size: 20px;
 
 .meter-read-hero {
   max-width: 1000px;
-  padding: 20px;
+  margin-top: 30px;
   
 }
 
@@ -702,15 +702,17 @@ font-weight: 200;
 }
 
 .meter-read-hero li {
-  list-style-type: none;
+  list-style-position: inside;
+  text-align: left;
   font-size: 20px;
   padding: 5px;
   font-weight: 200;
   margin-top: 5px;
+  padding: 5px 0px 5px 100px;
 }
 
 .meter-partner-hero {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 20px;
   font-weight: 200;
   background-color: #fafafa;
@@ -726,7 +728,7 @@ font-weight: 200;
 .meter-read-description {
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
-  padding: 15px 5px;
+  padding: 30px;
   border-radius: 20px;
   
 }
