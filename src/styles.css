@@ -707,8 +707,9 @@ font-size: 20px;
 }
 
 .meter-read-hero h2 {
-font-weight: 200;
+font-weight: 250;
 font-size: 28px;
+padding-bottom: 15px;
 }
 
 .meter-read-hero ul {
@@ -724,7 +725,7 @@ font-weight: 200;
   padding: 5px;
   font-weight: 200;
   margin-top: 5px;
-  padding: 5px 0px 5px 100px;
+  padding: 5px 0px 5px 200px;
 }
 
 .meter-partner-hero {
