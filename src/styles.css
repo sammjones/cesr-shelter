@@ -118,7 +118,7 @@ body {
 
 .our-stores {
   
-  padding: 5px;
+  padding: 13px;
   border-radius: 1%;
   max-width: 350px;
   background-color: #fafafa;
@@ -143,12 +143,12 @@ body {
 
 .contact-body {
   max-width: 1200px;
-  padding: 50px;
+  padding: 25px;
 }
 
 .contact-info-hero {
   padding-bottom: 30px;
-  padding-left: 250px;
+  
 }
 
 .contact-description {
@@ -166,17 +166,21 @@ body {
 
 .contact-description h2 {
   font-size: 22px;
+  padding: 20px;
 }
 
 .contact-description h3 {
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   font-weight: 200;
+  padding: 25px;
+  
+    
 }
 
 .contact-email {
   justify-content: center;
-  margin: 5px auto;
+  
   max-width: 1000px;
   padding: 25px;
   background-color: #fafafa;
@@ -192,7 +196,7 @@ body {
 }
 
 .contact-email h3 {
-  font-size: 22px;
+  font-size: 20px;
   padding-bottom: 20px;
   text-align: center;
   font-weight: 300;
