@@ -212,15 +212,13 @@ body {
   font-family: "Nunito Sans" sans-serif;
   max-width: 1000px;
   font-size: 14px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   color: #434343;
-  
-  background-color: #f8f9fa;
-  background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .click-img {
@@ -445,17 +443,17 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
   border-radius: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.partner-description h1 {
+.partner-description h2 {
   font-family: "Nunito Sans" sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 20px;
-  font-style: italic;
   text-align: center;
-  max-width: flex;
-  padding: 25px;
-  display: flex;
+  
+  padding: 30px;
+  
 }
 
 .partner-logo-box {
@@ -491,11 +489,9 @@ body {
   max-width: 400px;
 }
 
-.hero-image {
-  background-color: var(--secondary-color);
-  display: inline-block;
-  margin-top: 25px;
-  border-radius: 0.7%;
+.hero-img-carousel {
+  max-width: 660px;
+  margin-top: 5px;
 }
 
 
@@ -506,8 +502,8 @@ body {
 
 .home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
-  font-weight: 200;
-  font-size: 35px;
+  font-weight: 250;
+  font-size: 30px;
 }
 
 .home-hero-description p {
@@ -519,13 +515,15 @@ body {
 
 .home-body-hero {
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .homepage-description {
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
   padding: 50px;
-  font-weight: 250;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 .sales-description {
