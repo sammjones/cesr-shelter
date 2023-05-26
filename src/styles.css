@@ -79,6 +79,11 @@ body {
 .nav-link {
   height: 48;
   width: 48;
+  font-weight: 300;
+}
+
+.nav-link-upload {
+  font-weight: 300;
 }
 
 .navigation-links {
@@ -284,7 +289,7 @@ body {
 .footer-box {
  
   display: flex;
-  padding-top: 40px;
+  
 }
 
 .footer-content li {
