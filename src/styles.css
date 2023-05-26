@@ -166,31 +166,33 @@ body {
 
 .contact-description h1 {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .contact-description h2 {
   font-size: 22px;
   padding: 20px;
+  font-weight: 200;
 }
 
 .contact-description h3 {
-  font-size: 22px;
+  font-size: 21px;
   text-align: center;
   font-weight: 200;
-  padding: 25px;
+  padding: 15px;
   
     
 }
 
 .contact-email {
   justify-content: center;
-  
   max-width: 1000px;
   padding: 25px;
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  
   border-radius: 20px;
+  
   
 }
 
