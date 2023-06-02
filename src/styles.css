@@ -218,7 +218,7 @@ body {
   justify-content: center;
   font-family: "Nunito Sans" sans-serif;
   max-width: 1000px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 40px;
   font-weight: 300;
   text-transform: uppercase;
@@ -232,28 +232,28 @@ body {
 
 .click-img-file {
   margin: 0 auto;
-  padding: 30px 40px 30px 25px;
+  padding: 30px 30px 30px 25px;
 }
 
 .click-img-service {
   margin: 0 auto;
-  padding: 30px 40px 30px 25px;
+  padding: 30px 30px 30px 25px;
 }
 
 .click-img-supplies {
   margin: 0 auto;
-  padding: 30px 25px 30px 50px;
+  padding: 30px 25px 30px 30px;
 }
 
 .click-img-meter {
   margin: 0 auto;
-  padding: 30px 25px 30px 50px;
+  padding: 30px 25px 30px 30px;
 }
 
 
 
 .services-home-list {
-  max-width: 400px;
+  max-width: 450px;
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
   border-radius: 20px;
@@ -471,7 +471,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .partner-description h2 {
