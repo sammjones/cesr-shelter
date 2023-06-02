@@ -200,8 +200,21 @@ body {
   font-weight: 300;
 }
 
-.clickable-img container {
+.services-clickable-img {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding-left: 75px;
+  
+}
+
+.click-img-inside {
   justify-content: center;
+  background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+    border-radius: 20px;
+    padding-left: 30px;
+    
 }
 
 .clickable-img {
@@ -210,8 +223,8 @@ body {
   font-family: "Nunito Sans" sans-serif;
   max-width: 1000px;
   font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
+  line-height: 40px;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   color: #434343;
@@ -219,31 +232,56 @@ body {
   padding-bottom: 50px;
 }
 
-.click-img {
-  margin: 0 auto;
-  line-height: 50px;
-  justify-content: center;
-}
+
 
 .click-img-file {
   margin: 0 auto;
+  padding: 30px;
 }
 
 .click-img-service {
   margin: 0 auto;
+  padding: 30px;
 }
 
 .click-img-supplies {
   margin: 0 auto;
+  padding: 30px;
 }
 
 .click-img-meter {
   margin: 0 auto;
+  padding: 30px;
 }
 
-.click-img-icon {
-  max-width: 100%;
-  padding: 20px;
+
+
+
+.services-home-list {
+  max-width: 400px;
+  background-color: #fafafa;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.services-home-list ul {
+  font-size: 18px;
+  font-family: "Nunito Sans" sans-serif;
+}
+
+.services-home-list li {
+  font-size: 16px;
+  font-family: "Nunito Sans" sans-serif;
+  list-style-position: inside;
+    text-align: left;
+    font-weight: 200;
+    color: #5679a8;
+}
+
+.services-home-list li span {
+  color: #434343;
 }
 
 .contact-help {
@@ -491,7 +529,7 @@ body {
 .home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 250;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .home-hero-description p {
