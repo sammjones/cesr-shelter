@@ -203,17 +203,13 @@ body {
 .services-clickable-img {
   display: flex;
   max-width: 1200px;
-  margin: 50px auto;
-  padding-left: 75px;
+  margin: 30px auto;
+  padding-left: 100px;
   
 }
 
 .click-img-inside {
   justify-content: center;
-  background-color: #fafafa;
-    background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
-    border-radius: 20px;
-    padding-left: 30px;
     
 }
 
@@ -229,31 +225,30 @@ body {
   text-align: center;
   color: #434343;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
 
 
 .click-img-file {
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 40px 30px 25px;
 }
 
 .click-img-service {
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 40px 30px 25px;
 }
 
 .click-img-supplies {
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 25px 30px 50px;
 }
 
 .click-img-meter {
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 25px 30px 50px;
 }
-
 
 
 
@@ -262,26 +257,35 @@ body {
   background-color: #fafafa;
   background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
   border-radius: 20px;
-  padding: 15px;
+  padding: 20px;
   margin: 0 auto;
 }
 
 .services-home-list ul {
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Nunito Sans" sans-serif;
+  font-weight: 250;
+  color: #434343;
+  text-decoration: none;
 }
 
 .services-home-list li {
   font-size: 16px;
   font-family: "Nunito Sans" sans-serif;
   list-style-position: inside;
-    text-align: left;
-    font-weight: 200;
-    color: #5679a8;
+  text-align: left;
+  font-weight: 200;
+  color: #5679a8;
 }
 
 .services-home-list li span {
   color: #434343;
+  line-height: 30px;
+}
+
+.services-home-list a {
+  color: #5679a8;
+  padding-bottom: 15px;
 }
 
 .contact-help {
@@ -465,19 +469,16 @@ body {
 
 .partner-description {
   max-width: 1000px;
-  background-color: #fafafa;
-  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
-  border-radius: 20px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 30px;
 }
 
 .partner-description h2 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-
   padding: 30px;
 }
 
