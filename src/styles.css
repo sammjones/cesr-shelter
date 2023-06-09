@@ -34,7 +34,7 @@ body {
 }
 
 .body-container h2 {
-  font-weight: 250;
+  font-weight: 200;
   line-height: 36px;
   color: #434343;
   text-align: center;
@@ -590,24 +590,27 @@ body {
 }
 
 .sales-description h1 {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   line-height: 30px;
   font-weight: 200;
+ 
 }
 
 .sales-description p {
   text-align: center;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .sales-contact p {
   font-weight: 200;
   font-size: 20px;
-  padding-top: 50px;
+  padding: 25px;
 }
 
 .supplies-sales-info {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .supplies-sales-info li {
@@ -615,16 +618,22 @@ body {
   font-weight: 200;
   text-align: left;
   padding-left: 20px;
+  color:#5679a8;
+}
+
+.supplies-sales-info li span {
+  color: #434343;
 }
 
 .supplies-sales-info ul {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .supplies-sales-info p {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .product-help p {
@@ -672,6 +681,14 @@ body {
   border-radius: 20px;
   padding: 30px;
   margin: 25px auto;
+}
+
+
+
+.supplies-hero p {
+  font-weight: 200;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
 .contact-us-link p {
