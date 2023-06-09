@@ -154,14 +154,13 @@ body {
 .contact-description {
   max-width: 1200px;
   padding: 30px;
-  background-color: #fafafa;
-  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
-  border-radius: 20px;
+  
 }
 
 .contact-description h1 {
   font-size: 30px;
   font-weight: 300;
+  
 }
 
 .contact-description h2 {
@@ -607,7 +606,7 @@ body {
   line-height: 36px;
   font-size: 28px;
     font-weight: 250;
-    font-weight: 200;
+    font-weight: 250;
   padding-bottom: 20px;
 }
 
@@ -730,7 +729,8 @@ body {
 .services-hero h2 {
   line-height: 24px;
   font-weight: 250;
-  font-weight: 200;
+  
+  font-size: 28px;
 }
 
 .services-hero h1 {
