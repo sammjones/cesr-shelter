@@ -351,7 +351,7 @@ body {
 }
 
 .print-services-hero {
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 50px;
 
   background-color: #fafafa;
@@ -359,16 +359,27 @@ body {
   border-radius: 20px;
 }
 
-.print-services-hero h1 {
+.print-services-hero p {
+  font-weight: 200;
   font-size: 20px;
+  padding-top: 25px;
+}
+
+.print-services-hero h1 {
+  font-size: 22px;
   line-height: 30px;
   font-weight: 200;
 }
 
+.print-services-hero h4 {
+  font-weight: 200;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
 
 .print-services-hero ul {
   font-weight: 200;
-  line-height: 40px;
+  
 }
 
 .print-services-hero li {
@@ -376,7 +387,9 @@ body {
   color: #5679a8;
   text-align: left;
   padding-left: 200px;
+  padding-top: 8px;
   font-weight: 200;
+  font-size: 20px;
 }
 
 .print-services-hero li span {
@@ -413,6 +426,9 @@ body {
 .print-services h4 {
   font-size: 24px;
   font-weight: 300;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #5679a8;
 }
 
 .print-services h5 {
@@ -447,53 +463,27 @@ body {
 .oversized-prints li {
   list-style-position: inside;
   text-align: left;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .oversized-prints {
   padding: 30px;
+  
 }
 
 .high-volume li {
   list-style-position: inside;
   text-align: left;
+  max-width: 500px;
 }
 
 .high-volume {
   padding: 30px;
 }
 
-.print-services-description {
-  max-width: 600px;
-  padding: 10px;
-  margin: 50px auto;
-}
-
-.print-services-description p {
-  font-weight: 200;
-  font-size: 18px;
-}
-
-.print-services-description li {
-  font-weight: 200;
-  font-size: 16px;
-  text-align: left;
-}
-
-.print-services-process {
-  max-width: 600px;
-  padding: 10px;
-  margin: 50px auto;
-}
-
-.print-services-process p {
-  font-weight: 200;
-  font-size: 18px;
-}
-.print-services-process li {
-  font-weight: 200;
-  font-size: 16px;
-  text-align: left;
+.print-services-banner {
+ display: block;
+ margin: 0 auto;
 }
 
 .print-services-upload {
