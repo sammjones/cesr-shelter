@@ -590,7 +590,7 @@ body {
 }
 
 .sales-description h1 {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   line-height: 30px;
   font-weight: 200;
@@ -611,6 +611,7 @@ body {
 
 .supplies-sales-info {
   max-width: 900px;
+  padding-top: 30px;
 }
 
 .supplies-sales-info li {
@@ -638,7 +639,8 @@ body {
 
 .product-help p {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 18px;
+  padding: 25px;
 }
 
 .equipment-sales-hero {
@@ -683,12 +685,16 @@ body {
   margin: 25px auto;
 }
 
-
-
 .supplies-hero p {
   font-weight: 200;
   font-size: 18px;
   padding-top: 10px;
+}
+
+.supplies-hero span {
+  font-weight: 200;
+  color: #434343;
+  
 }
 
 .contact-us-link p {
