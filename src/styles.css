@@ -151,12 +151,12 @@ body {
 
 .contact-description {
   max-width: 1200px;
-  padding: 30px;
+  padding-bottom: 30px;
   
 }
 
 .contact-description h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 300;
   
 }
@@ -184,7 +184,8 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
+  color:#000000;
 }
 
 .services-clickable-img {
@@ -292,8 +293,9 @@ body {
 }
 
 .faq-description h3 {
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 25px;
+  color:#000000;
 }
 
 .faq-description h4 {
@@ -357,10 +359,10 @@ body {
 }
 
 .print-services-hero h4 {
-  font-weight: 250;
+  font-weight: 300;
   font-size: 26px;
   padding-bottom: 10px;
- 
+  color: #434343;
 }
 
 .print-services-hero ul {
@@ -646,7 +648,7 @@ body {
 .equipment-sales-hero h2 {
   font-size: 28px;
   font-weight: 200;
- 
+  color: #000000;
 }
 
 .canon-equipment {
@@ -683,6 +685,7 @@ body {
 
 .supplies-hero h2 {
   font-size: 28px;
+  color: #000000;
 }
 
 .supplies-hero p {
@@ -714,8 +717,8 @@ body {
 
 .services-hero h2 {
   line-height: 24px;
-  font-weight: 250;
-  
+  font-weight: 200;
+  color:#000000;
   font-size: 28px;
 }
 
@@ -783,6 +786,7 @@ body {
   font-weight: 200;
   font-size: 26px;
   padding-bottom: 25px;
+  color: #000000;
 }
 
 .meter-read-hero ul {
