@@ -585,7 +585,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
- 
+  
 }
 
 .sales-description p {
@@ -598,9 +598,9 @@ body {
 .sales-description h4 {
   line-height: 36px;
   font-size: 28px;
-    font-weight: 250;
-    font-weight: 250;
+  font-weight: 300;
   padding-bottom: 20px;
+  color: #434343;
 }
 
 .sales-contact p {
@@ -641,18 +641,20 @@ body {
 
 .product-help p {
   font-weight: 200;
-  font-size: 18px;
-  padding: 25px;
+  font-size: 20px;
+  padding: 40px;
+  color: #000000;
 }
 
 .equipment-sales-hero {
-  margin-top: 55px;
+  margin-top: 45px 0px 25px 0px;
   padding: 30px;
 }
 
 .equipment-sales-hero h2 {
   font-size: 28px;
   font-weight: 200;
+  padding-bottom: 25px;
   color: #000000;
 }
 
