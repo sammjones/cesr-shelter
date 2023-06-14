@@ -103,13 +103,13 @@ body {
   background-color: #7892c2;
   border-radius: 6px;
   padding: 10px 24px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .click-img-button a {
   text-decoration: none;
   color: white;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .click-img-button a span {
@@ -300,6 +300,7 @@ body {
 
 .footer-box {
   display: flex;
+  padding-top: 25px;
 }
 
 .footer-content li {
@@ -477,6 +478,7 @@ body {
   margin: 0 auto;
   text-align: center;
   padding-top: 50px;
+  justify-content: center;
 }
 
 .partner-description h2 {
@@ -485,7 +487,10 @@ body {
   font-size: 18px;
   text-align: center;
   padding: 30px;
+  
 }
+
+
 
 .partner-logo-box {
   text-align: center;
@@ -532,6 +537,9 @@ body {
   padding: 50px;
 }
 
+.home-hero-description {
+ padding-top: 15px;
+}
 .home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 250;
