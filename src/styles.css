@@ -443,6 +443,12 @@ body {
   padding: 30px;
 }
 
+.meter-banner {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
 .print-services-banner {
   display: block;
   margin: 0 auto;
