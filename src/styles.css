@@ -6,7 +6,6 @@
   --secondary-color: #f8f9fa;
   --secondary-color-blue: #e7eaf0;
   --box-shadow: 0 1px 7px rgba(209, 209, 209, 1);
-  
 }
 
 a:link {
@@ -133,7 +132,6 @@ body {
   background-color: #7892c2;
   border-radius: 6px;
   padding: 10px 20px;
-  
 }
 
 .our-stores {
@@ -147,7 +145,6 @@ body {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 300;
   padding-top: 15px;
- 
 }
 
 .our-stores li {
@@ -175,13 +172,11 @@ body {
 .contact-description {
   max-width: 1200px;
   padding-bottom: 20px;
-  
 }
 
 .contact-description h1 {
   font-size: 26px;
   font-weight: 300;
-  
 }
 
 .contact-description h2 {
@@ -194,7 +189,6 @@ body {
   justify-content: center;
   max-width: 1000px;
   padding: 25px;
-  
 }
 
 .contact-email p {
@@ -205,16 +199,12 @@ body {
   padding-left: 100px;
 }
 
-
-
 .services-clickable-img {
   display: flex;
   max-width: 1200px;
   margin: 30px auto;
   padding-left: 100px;
-  
 }
-
 
 .clickable-img {
   display: flex;
@@ -227,7 +217,6 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-
 
 .services-home-list {
   max-width: 450px;
@@ -284,7 +273,7 @@ body {
 .faq-description h3 {
   font-weight: 200;
   margin-bottom: 24px;
-  color:#000000;
+  color: #000000;
 }
 
 .faq-description h4 {
@@ -332,7 +321,6 @@ body {
 .print-services-hero {
   max-width: 1000px;
   padding: 10px;
-  
 }
 
 .print-services-hero p {
@@ -345,7 +333,6 @@ body {
   font-size: 20px;
   line-height: 30px;
   font-weight: 200;
-  
 }
 
 .print-services-hero h4 {
@@ -357,7 +344,6 @@ body {
 
 .print-services-hero ul {
   font-weight: 200;
-  
 }
 
 .print-services-hero li {
@@ -420,16 +406,15 @@ body {
   font-weight: 200;
   font-size: 18px;
   line-height: 22px;
-  color:#5679a8;
+  color: #5679a8;
 }
 
 .print-services li span {
   color: #434343;
   line-height: 35px;
-  
 }
 
-.print-services-large li  {
+.print-services-large li {
   list-style-position: inside;
   text-align: left;
 }
@@ -446,7 +431,6 @@ body {
 
 .oversized-prints {
   padding: 30px;
-  
 }
 
 .high-volume li {
@@ -460,8 +444,8 @@ body {
 }
 
 .print-services-banner {
- display: block;
- margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .print-services-upload {
@@ -487,10 +471,7 @@ body {
   font-size: 18px;
   text-align: center;
   padding: 30px;
-  
 }
-
-
 
 .partner-logo-box {
   text-align: center;
@@ -539,7 +520,7 @@ body {
 }
 
 .home-hero-description {
- padding-top: 15px;
+  padding-top: 15px;
 }
 .home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
@@ -565,12 +546,11 @@ body {
   padding: 25px;
   font-weight: 200;
   font-size: 18px;
-  
 }
 
 .homepage-description p {
-  margin-top: 55px;
-  margin-bottom: 10px;
+  margin: 40px 0px;
+ 
   font-size: 20px;
 }
 
@@ -581,7 +561,6 @@ body {
 .sales-description {
   max-width: 1200px;
   padding: 40px;
-  
 }
 
 .sales-description h1 {
@@ -589,7 +568,6 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-weight: 200;
-  
 }
 
 .sales-description p {
@@ -624,12 +602,11 @@ body {
   text-align: left;
   padding-left: 250px;
   padding-top: 10px;
-  color:#5679a8;
+  color: #5679a8;
 }
 
 .supplies-sales-info li span {
   color: #434343;
-  
 }
 
 .supplies-sales-info ul {
@@ -689,7 +666,6 @@ body {
 }
 
 .supplies-hero {
-  
   padding: 30px;
   margin: 25px auto;
 }
@@ -708,7 +684,6 @@ body {
 .supplies-hero span {
   font-weight: 200;
   color: #434343;
-  
 }
 
 .contact-us-link p {
@@ -753,7 +728,7 @@ body {
   max-width: 1000px;
   font-weight: 200;
   padding: 10px;
-  
+
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -784,7 +759,7 @@ body {
 
 .meters-banner {
   display: block;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .meter-read-hero {
@@ -796,7 +771,6 @@ body {
   font-weight: 300;
   font-size: 26px;
   padding-bottom: 25px;
-  
 }
 
 .meter-read-hero ul {
@@ -817,21 +791,18 @@ body {
 
 .meter-read-hero li span {
   color: #434343;
-  
 }
 
 .meter-partner-hero {
   max-width: 800px;
   padding: 50px;
   font-weight: 200;
-  
 }
 
 .meter-partner-hero p {
   font-weight: 200;
   font-size: 20px;
 }
-
 
 .meter-partner-hero img {
   padding: 10px;
