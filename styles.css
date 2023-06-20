@@ -70,6 +70,7 @@ body {
 
 .button-container {
   padding: 50px;
+  margin-top: 25px;
 }
 
 .nav-link {
@@ -390,7 +391,7 @@ color: #1E8FDA;
 
 .print-services {
   max-width: 800px;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .print-services h4 {
@@ -427,6 +428,7 @@ color: #1E8FDA;
 
 .print-services-large {
   padding: 30px;
+  margin-top: 50px;
 }
 
 .oversized-prints li {
@@ -437,6 +439,7 @@ color: #1E8FDA;
 
 .oversized-prints {
   padding: 30px;
+  margin-top: 15px;
 }
 
 .high-volume li {
@@ -447,6 +450,7 @@ color: #1E8FDA;
 
 .high-volume {
   padding: 30px;
+  margin-top: 15px;
 }
 
 .meter-banner {
