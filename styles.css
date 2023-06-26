@@ -98,12 +98,13 @@ body {
 }
 
 .click-img-button {
-  max-width: 500px;
+  max-width: 100%;
   background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
   background-color: #7892c2;
   border-radius: 6px;
   padding: 10px 24px;
   margin: 10px;
+  display: inline-block;
 }
 
 .click-img-button a {
@@ -541,12 +542,12 @@ color: #1E8FDA;
 }
 
 .home-hero-description {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .home-hero-description h1 {
   font-family: "Nunito Sans" sans-serif;
   font-weight: 250;
-  font-size: 1.6875vw;
+  font-size: 26px;
 }
 
 .home-hero-description p {
