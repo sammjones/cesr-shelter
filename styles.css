@@ -625,8 +625,8 @@ color: #1E8FDA;
 .supplies-sales-info li {
   list-style-position: inside;
   font-weight: 200;
-  text-align: left;
-  padding-left: 250px;
+  text-align: center;
+  margin: 0 auto;
   padding-top: 10px;
   color: #5679a8;
 }
