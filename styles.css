@@ -811,9 +811,17 @@ color: #1E8FDA;
 
 .meter-read-hero h2 {
   font-weight: 300;
-  font-size: 25px;
-  
-  
+  font-size: 26px; 
+}
+
+.meter-read-hero h3 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.meter-read-instruction {
+  max-width: 600px;
+  padding-top: 25px;
 }
 
 .meter-read-hero ul {
