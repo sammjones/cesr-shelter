@@ -749,7 +749,7 @@ color: #1E8FDA;
 
 .services-hero-description {
   max-width: 550px;
-  padding: 10px 30px 30px 30px;
+  margin: 25px auto;
   border-radius: 20px;
 }
 
