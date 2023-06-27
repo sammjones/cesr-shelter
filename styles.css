@@ -85,7 +85,7 @@ body {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -173,20 +173,22 @@ body {
 }
 
 .contact-description {
-  max-width: 1200px;
-  padding-bottom: 20px;
+  max-width: 900px;
+  
 }
 
 .contact-description h1 {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 28px;
 }
 
-.contact-description h2 {
-  font-size: 20px;
-  padding: 20px;
-  font-weight: 200;
+.contact-description h1 span {
+  font-weight: 300;
+  font-size: 26px;
 }
+
+
 
 .contact-email {
   justify-content: center;
@@ -196,9 +198,14 @@ body {
 
 .contact-email p {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
-  padding-left: 100px;
+  
+}
+
+.contact-email p span {
+  font-weight: 200;
+  color: #000000;
 }
 
 .services-clickable-img {
@@ -529,7 +536,7 @@ color: #1E8FDA;
 
 .hero-img-carousel {
   max-width: 660px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .carousel-item {
@@ -538,7 +545,7 @@ color: #1E8FDA;
 }
 
 .home-body {
-  padding: 50px;
+  padding: 20px;
 }
 
 .home-hero-description {
@@ -654,7 +661,7 @@ color: #1E8FDA;
 }
 
 .equipment-sales-hero {
-  margin: 45px 0px 25px 0px;
+  margin: 25px auto;
   padding: 30px;
 }
 
@@ -662,7 +669,7 @@ color: #1E8FDA;
   font-size: 26px;
   font-weight: 300;
   padding-bottom: 25px;
-  
+  text-align: center;
 }
 
 .canon-equipment {
@@ -724,7 +731,7 @@ color: #1E8FDA;
 }
 
 .services-hero {
-  padding: 30px;
+  padding: 10px;
 }
 
 .services-hero h2 {
@@ -741,7 +748,7 @@ color: #1E8FDA;
 
 .services-hero-description {
   max-width: 550px;
-  padding: 30px;
+  padding: 10px 30px 30px 30px;
   border-radius: 20px;
 }
 
