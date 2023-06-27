@@ -808,7 +808,7 @@ color: #1E8FDA;
 }
 
 .meter-read-hero ul {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   font-weight: 200;
 }
@@ -829,13 +829,13 @@ color: #1E8FDA;
 
 .meter-partner-hero {
   max-width: 800px;
-  padding: 50px;
+  padding: 30px;
   font-weight: 200;
 }
 
 .meter-partner-hero p {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .meter-partner-hero img {
@@ -845,4 +845,9 @@ color: #1E8FDA;
 
 .meter-read-image {
   margin-top: 20px;
+}
+
+.meter-hero-desc {
+  max-width: 900px;
+  padding-top: 50px;
 }
