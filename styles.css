@@ -821,31 +821,18 @@ color: #1E8FDA;
 
 .meter-read-instruction {
   max-width: 600px;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
-.meter-read-hero ul {
-  font-size: 18px;
-  line-height: 32px;
+.meter-read-instruction h1 {
   font-weight: 200;
-}
-
-.meter-read-hero li {
-  list-style-position: inside;
-  text-align: left;
   font-size: 18px;
-  font-weight: 200;
-  color: #5679a8;
-  padding-left: 380px;
-  padding-top: 5px;
+  line-height: 22px;
 }
 
-.meter-read-hero li span {
-  color: #434343;
-}
 
 .meter-partner-hero {
-  max-width: 800px;
+  max-width: 600px;
   padding: 30px;
   font-weight: 200;
 }
@@ -853,18 +840,19 @@ color: #1E8FDA;
 .meter-partner-hero p {
   font-weight: 200;
   font-size: 18px;
+  text-align: center;
 }
 
 .meter-partner-hero img {
   padding: 10px;
-  margin-top: 5px auto;
+  margin-top: 0px auto;
 }
 
 .meter-read-image {
-  margin-top: 20px;
+  margin: 0 auto;
 }
 
-.meter-hero-desc {
-  max-width: 900px;
-  padding-top: 50px;
+.meter-partner-logo {
+  padding-top: 20px;
 }
+
